@@ -35,3 +35,5 @@ echo "result of a%b+c :$compute4"
 arith[$i]=$compute4
 array[i]=${arith[$i]}
 ((i++))
+
+echo $(printf '%s\n' "${array[@]}" | sort -nr )
