@@ -37,3 +37,5 @@ array[i]=${arith[$i]}
 ((i++))
 
 echo $(printf '%s\n' "${array[@]}" | sort -nr )
+
+echo $(printf '%s\n' "${array[@]}" | sort -n )
