@@ -15,3 +15,6 @@ echo "result of a*b+c :$compute2"
 
 compute3=$(($c+$(($a/$b))))
 echo "result of c+a/b :$compute3"
+
+compute4=$(($c+$(($a%$b))))
+echo "result of a%b+c :$compute4"
